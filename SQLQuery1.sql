@@ -1,0 +1,5 @@
+ CREATE TABLE dbo.Login (
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    Email NVARCHAR(255) NOT NULL,
+    Password NVARCHAR(255) NOT NULL
+);
